@@ -15,18 +15,11 @@ function calcular(base, altura){
     return [area, perimetro];
 }
 
+//Esta funcion retorna valores
+//calcular(5, 4);
 
-function calcular_hipotenusa(a, b){
-    //Math.pow(a,2)
-    const hipotenusa = Math.sqrt(a**2 + b**2);
-    return hipotenusa;
-}
+//se guarda el resultado de esa funcion
+let resultado = calcular(5, 4);
 
-
-//Esta función retorna valores
-//let resultado = calcular (5,4);
-let resultado = calcular_hipotenusa(10, 20);
-
-
-//Imprimir el área
+//Imprimir el área en la posición cero
 console.log(resultado[0])
